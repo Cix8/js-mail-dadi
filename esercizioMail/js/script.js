@@ -1,4 +1,4 @@
-const emailList = ['franco@mymail.com','ciccio@email.it','piero@libero.it','gino@gmail.com','anonimo@nomail.com'];
+const emailList = ['franco@mymail.com','ciccio@email.it','piero@libero.it','gino@gmail.com','anonimo@nomail.com','giggio80@email.it'];
 const userEmail = prompt('Inserisci la tua email');
 
 let result = 'I dati inseriti non sono validi';
