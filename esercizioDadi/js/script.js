@@ -3,7 +3,7 @@ let computerNumber = Math.floor(Math.random() * 6) + 1;
 console.log("Numero del giocatore: ", userNumber);
 console.log("Numero del computer: ", computerNumber);
 
-userWins = false;
+let userWins = false;
 
 if (userNumber > computerNumber) {
     userWins = true;
