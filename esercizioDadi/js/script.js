@@ -7,6 +7,8 @@ userWins = false;
 
 if (userNumber > computerNumber) {
     userWins = true;
+} else if (userNumber === computerNumber) {
+    userWins = 'pareggio';
 }
 
 console.log("Il giocatore ha vinto: ", userWins);
